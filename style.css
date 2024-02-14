@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #fefefe;
+    width: 450px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow:2px 8px 6px -2px #3f1919;
+}
+.form{
+    align-items: center;
+    justify-content: center;
+}
+.conditions{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+.password{
+    background-color:grey ;
+    border: none;
+    width: 70%;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    color: #fefefe;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 25%;
+}
+.btn:hover{
+    background-color: rgb(35, 171, 35);
+}
